@@ -4163,26 +4163,26 @@ fieldset:disabled a.btn {
 
 .btn-secondary {
   color: #212529;
-  background-color: #FEBC35;
-  border-color: #FEBC35; }
+  background-color: #b60000;
+  border-color: #b60000; }
   .btn-secondary:hover {
     color: #212529;
-    background-color: #feaf0f;
-    border-color: #feab02; }
+    background-color: #b60000;
+    border-color: #b60000; }
   .btn-secondary:focus, .btn-secondary.focus {
     color: #212529;
-    background-color: #feaf0f;
-    border-color: #feab02;
+    background-color: #b60000;
+    border-color: #b60000;
     box-shadow: 0 0 0 0.2rem rgba(221, 165, 51, 0.5); }
   .btn-secondary.disabled, .btn-secondary:disabled {
     color: #212529;
-    background-color: #FEBC35;
-    border-color: #FEBC35; }
+    background-color: var(--opposite-color);
+    border-color: var(--opposite-color); }
   .btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active,
   .show > .btn-secondary.dropdown-toggle {
     color: #212529;
-    background-color: #feab02;
-    border-color: #f2a301; }
+    background-color: var(--opposite-color);
+    border-color: var(--opposite-color); }
     .btn-secondary:not(:disabled):not(.disabled):active:focus, .btn-secondary:not(:disabled):not(.disabled).active:focus,
     .show > .btn-secondary.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(221, 165, 51, 0.5); }
@@ -9552,7 +9552,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 :root {
   --theme-color: #000;
-  --secondary-color: #FEBC35;
+  --secondary-color: #ff0000;
   --opposite-color: #c80000;
   --text-color: #b60000;
   --title-color: #1A1D2D;
@@ -9669,7 +9669,7 @@ span.diff {
 
 .btn-theme2 {
   padding: 10px 30px;
-  color: #222222;
+  color: var(--white-color);
   font-size: 16px;
   text-transform: capitalize;
   font-weight: 600;
@@ -9687,7 +9687,7 @@ span.diff {
 
 .btn-theme3 {
   padding: 10px 24px;
-  color: #222222;
+  color: #ffffff;
   font-size: 16px;
   text-transform: capitalize;
   font-weight: 600;
@@ -11921,7 +11921,7 @@ ul.partners-icon li span.fa:hover {
 .w3l-footer-29-main .rightside-form button {
   background: var(--opposite-color);
   border: none;
-  color: var(--title-color);
+  color:#ffffff;
   padding: 10px 30px;
   font-size: 16px;
   cursor: pointer;
@@ -12252,7 +12252,7 @@ ul.partners-icon li span.fa:hover {
 .w3-about-2 .icon {
   background: var(--opposite-color);
   width: 40px;
-  height: 40px;
+  height: 33px;
   border-radius: 4px;
   text-align: center; }
 
@@ -13120,19 +13120,23 @@ ul.partners-icon li span.fa:hover {
   font-size: 15px;
   border-radius: 2px; }
 
-.w3l-text-11 ul.social li span.fa-facebook {
-  background: #3b5998; }
+.w3l-text-11 ul.social li span.facebook {
+  background: #3b5998;
+padding: 5px; }
 
-.w3l-text-11 ul.social li span.fa-twitter {
-  background: #1da1f2; }
+.w3l-text-11 ul.social li span.twitter {
+  background: #1da1f2;
+  padding: 5px;  }
 
-.w3l-text-11 ul.social li span.fa-google-plus {
-  background: #dd4b39; }
+.w3l-text-11 ul.social li span.googleplus {
+  background: #dd4b39;
+  padding: 5px;  }
 
-.w3l-text-11 ul.social li span.fa-linkedin {
-  background: #0077b5; }
+.w3l-text-11 ul.social li span.linkedin {
+  background: #0077b5;
+padding: 5px;  }
 
-.w3l-text-11 ul.social li span.fa:hover {
+.w3l-text-11 ul.social li span.fat:hover {
   opacity: .9; }
 
 .w3l-text-11 .media {
@@ -13354,4 +13358,3 @@ ul.partners-icon li span.fa:hover {
   .w3l-service-breadcrum .breadcrum-bg {
     padding-top: 60px; } }
 
-/*# sourceMappingURL=style-liberty.css.map */
